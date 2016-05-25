@@ -1,0 +1,9 @@
+System.setProperty("java.awt.headless", "true")
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':plugin')
+}
